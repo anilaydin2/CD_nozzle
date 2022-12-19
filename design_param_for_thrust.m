@@ -8,9 +8,9 @@ h = 1000.0; % m
 R = 286.9; %J/kgK 
 
 % User defined values
-p_total = input("Inlet Pressure [Pa]: "); %Pa
-r_inlet = input("Inlet radius [m]: ");
-thrust = input("Wanted thrust [N]: ");
+p_total = 4e6("Inlet Pressure [Pa]: "); %Pa
+r_inlet = 0,00748("Inlet radius [m]: ");
+thrust = 25("Wanted thrust [N]: ");
 
 %Calculations
 A_inlet = pi*r_inlet^2; %m
